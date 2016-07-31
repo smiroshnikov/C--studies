@@ -37,17 +37,16 @@ namespace Geometry
 
             graph.DrawLine(pen, line1.X1,line1.Y1, line1.X2 , line1.Y2);
             graph.DrawLine(pen, line2.X1, line2.Y1, line2.X2, line2.Y2);
-            //graph.DrawLine(pen, 100, 100, 200, 10);
-            //graph.DrawLine(pen, 200, 10, 300, 100);
+
             Canvas.Image = bmp; // PictureBox method 
         }
 
-        public void DrawOnMyCanvas2(Line line)
+      /*  public void DrawOnMyCanvas2(Line line)
         {
-
+            
             graph.DrawLine(pen, line1.X1, line1.Y1, line1.X2, line1.Y2);
             graph.DrawLine(pen, line2.X1, line2.Y1, line2.X2, line2.Y2);
-        }
+        }*/
 
 
     }
